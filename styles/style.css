@@ -1,0 +1,71 @@
+/* 
+thin --> 100
+extra light --> 200
+light  --> 300
+regular -->  400
+medium  --> 500
+semi-bold  --> 600
+bold  --> 700
+extra-bold  --> 800
+ */
+
+ /*কোন ফন্টের জন্য কোন ট্যাগ ইউজ করব:
+   56px --> <h1>
+   46px --> <h2>
+   40px --> <h3>
+   32px --> <h4>
+   24px --> <h5>
+   20px --> <h6>
+   18px --> <p>
+   16px --> <small> */
+
+/*
+Tag	Description	Size
+<h1>		2em (32px)
+<h2>		1.5em (24px)
+<h3>		1.17em (18.72px)
+<h4>		1em (16px)
+<h5>		0.83em (13.28px)
+<h6>		0.67em (10.72px) 
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-quicksand{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    margin-left: 8.75rem;
+    margin-right: 8.75rem;
+}
+
+/* 
+thin --> 100
+extra light --> 200
+light  --> 300
+regular -->  400
+medium  --> 500
+semi-bold  --> 600
+bold  --> 700
+extra-bold  --> 800
+ */
+
+/* global colors */
+ :root{
+    --orange: #FEA301;
+    --sky-blue: #01ACFD;
+    --thin: 100;
+    --extra-light: 200;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semi-bold: 600;
+    --bold: 700;
+    --extra-bold: 800;
+}
