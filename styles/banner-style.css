@@ -13,6 +13,7 @@ extra-bold  --> 800
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .brand-container {
@@ -30,27 +31,30 @@ extra-bold  --> 800
 
 }
 
-.nav-link-1{
+.nav-link-1 {
     font-weight: var(--bold);
     color: var(--orange);
 }
-.nav-link-2{
+
+.nav-link-2 {
     color: var(--sky-blue);
 }
-.nav-link-3{
+
+.nav-link-3 {
     color: #01ACFD;
 }
-.nav-link-4{
+
+.nav-link-4 {
     color: #5D58EF;
 }
 
 
 .contact-btn-container {
     display: flex;
-    font-size:  1.25rem;
+    font-size: 1.25rem;
 }
 
-.contact-btn{
+.contact-btn {
     font-weight: 600;
     color: white;
     background-color: var(--orange);
@@ -59,5 +63,76 @@ extra-bold  --> 800
     border-radius: 12px;
 }
 
-/* DANGER ZONE AHEAD>>>>>>>> */
-.menu-icon{display: none;}
+/* only mobile properties hidden for desktop>>>>>>>> */
+.menu-icon {
+    display: none;
+}
+
+.divider-for-mobile {
+    display: none;
+}
+
+/* hero section for dektop starts */
+.hero-message-title{
+    font-size:  2.45rem;
+    font-weight: var(--bold);
+}
+.line-1{
+    color: var(--orange);
+}
+.line-3-span-2{
+    color: var(--sky-blue);
+
+}
+
+.hero-message-description{
+    font-weight: var(--regular);
+    color: rgba(17, 17, 17, 1);
+}
+
+.enroll-now-btn{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 40px;
+    font-weight: var(--bold);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hero-img{
+    width: 100%;
+}
+@media screen and (max-width: 576px) {
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .nav-links-container {
+        display: none;
+    }
+
+    .contact-btn-container {
+        display: none;
+    }
+
+    .brand-name {
+        display: none;
+    }
+
+    .divider-for-mobile {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        /* font-weight: bold; */
+        font-size: 2rem;
+    }
+
+
+}
