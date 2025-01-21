@@ -1,0 +1,115 @@
+/* .cirriculum-section-parent-div{
+    background-image: url('../../assets/bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+} */
+.stories-section {
+    margin-left: 8.75rem;
+    margin-right: 8.75rem;
+}
+
+.stories-box-container {
+    display: flex;
+    gap: 18px;
+    height: 100%;
+}
+
+.left-part-of-the-stories,
+.right-part-of-the-stories {
+    width: 50%;
+    height: 100%;
+    /* display: flex; */
+}
+
+.story-1 {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightcoral;
+    border-radius: 16px;
+    height: 100%;
+    position: relative;
+
+}
+
+.img-holder {
+    /* width: 100%; */
+    height: 70%;
+    position: relative;
+}
+
+.img-holder>img {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.content-holder {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 36px;
+}
+
+.right-part-of-the-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid red; */
+    gap: 18px;
+}
+
+.right-part-of-the-stories>* {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+}
+
+
+
+.content-holder-of-the-right-side {
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.story-section-view-btn{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 50px;
+}
+
+
+/* making the overlapping buttons*/
+.date-button-1 {
+    position: absolute;  
+    left: 24px;         
+    bottom: 145px;      
+    background-color: #40DCEF;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    z-index: 1;    
+}
+
+.date-button-2{
+    position: absolute;  /* Takes it out of normal document flow */
+    left: 24px;         /* Distance from left edge of parent */
+    bottom: 105px;     
+    background-color: #95B226;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    z-index: 1; 
+}

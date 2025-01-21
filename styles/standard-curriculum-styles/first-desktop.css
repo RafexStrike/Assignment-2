@@ -36,7 +36,7 @@
     align-items: center;
     gap: 3.335rem;
 }
-/* adding the background image */
+/* adding the background image S*/
 .cirriculum-section-parent-div{
     background-image: url('../../assets/bg.png');
     background-size: contain;
@@ -45,6 +45,7 @@
     margin: 0;
     padding: 0;
 }
+/* adding the background image E*/
 .curriculums-container {
     display: flex;
     gap: 28px;
