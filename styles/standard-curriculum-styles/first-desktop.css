@@ -33,6 +33,13 @@
     align-items: center;
     gap: 3.335rem;
 }
+/* adding the background image */
+.curriculum-section{
+    background-image: url('../../assets/bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .curriculums-container {
     display: flex;
     gap: 28px;

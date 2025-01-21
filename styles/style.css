@@ -40,9 +40,14 @@ Tag	Description	Size
     font-style: normal;
   }
 
-body{
+/* body{
     margin-left: 8.75rem;
     margin-right: 8.75rem;
+} */
+
+header{
+  margin-left: 8.75rem;
+  margin-right: 8.75rem;
 }
 
 /* 
