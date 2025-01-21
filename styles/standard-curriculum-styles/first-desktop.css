@@ -27,18 +27,23 @@
 
 /* gradient color stops */
 .curriculum-section{
-    margin-top: 60px;
+    margin-left: 8.75rem;
+    margin-right: 8.75rem;
+    /* margin-top: 60px; */
+    padding-top: 60px; /*that's a banger!*/
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3.335rem;
 }
 /* adding the background image */
-.curriculum-section{
+.cirriculum-section-parent-div{
     background-image: url('../../assets/bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
+    padding: 0;
 }
 .curriculums-container {
     display: flex;
