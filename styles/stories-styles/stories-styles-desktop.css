@@ -1,14 +1,36 @@
-/* .cirriculum-section-parent-div{
-    background-image: url('../../assets/bg.png');
-    background-size: contain;
+/* adding the background image S*/
+.stories-section-parent-div {
+    background-image: url('../../assets/bg.png'), linear-gradient(0deg,
+            #F9DEAE 0%,
+            #F9EED9 50%,
+            #FFFFFF 100%);
+    ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
     padding: 0;
-} */
+
+
+    /* position: relative; */
+}
+
+/* adding the background image E*/
 .stories-section {
     margin-left: 8.75rem;
     margin-right: 8.75rem;
+    padding-top: 60px;
+    /*that's a banger!*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.335rem;
+
+
+}
+
+.stories-section>* {
+    flex: 1;
 }
 
 .stories-box-container {
@@ -28,7 +50,8 @@
     /* width: 100%; */
     display: flex;
     flex-direction: column;
-    border: 1px solid lightcoral;
+    /* border: 1px solid lightcoral; */
+    background-color: white;
     border-radius: 16px;
     height: 100%;
     position: relative;
@@ -64,9 +87,11 @@
 .right-part-of-the-stories>* {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    /* border: 1px solid blue; */
+    background-color: white;
+    /* border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px; */
+    border-radius: 16px;
     position: relative;
 }
 
@@ -78,38 +103,41 @@
     padding-right: 15px;
 }
 
-.story-section-view-btn{
+.story-section-view-btn {
     color: white;
     background-color: black;
     border: none;
     border-radius: 12px;
     padding: 10px 50px;
+    /* flex: 1; */
 }
 
 
 /* making the overlapping buttons*/
 .date-button-1 {
-    position: absolute;  
-    left: 24px;         
-    bottom: 145px;      
+    position: absolute;
+    left: 24px;
+    bottom: 145px;
     background-color: #40DCEF;
     color: white;
     padding: 8px 16px;
     border-radius: 20px;
     border: none;
     font-size: 14px;
-    z-index: 1;    
+    z-index: 1;
 }
 
-.date-button-2{
-    position: absolute;  /* Takes it out of normal document flow */
-    left: 24px;         /* Distance from left edge of parent */
-    bottom: 105px;     
+.date-button-2 {
+    position: absolute;
+    /* Takes it out of normal document flow */
+    left: 24px;
+    /* Distance from left edge of parent */
+    bottom: 105px;
     background-color: #95B226;
     color: white;
     padding: 8px 16px;
     border-radius: 20px;
     border: none;
     font-size: 14px;
-    z-index: 1; 
+    z-index: 1;
 }
