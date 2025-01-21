@@ -1,0 +1,48 @@
+/* gradient color starts */
+.gradient-element-1 {
+    background: linear-gradient(
+        180deg,  /* This is equivalent to 'to bottom' */
+        #DEF5FF 0%,
+        #FFFFFF 40%,
+        #FFFFFF 100%
+    );
+}
+.gradient-element-2 {
+    background: linear-gradient(
+        180deg,  /* This is equivalent to 'to bottom' */
+        #FFF4DC 0%,
+        #FFFFFF 40%,
+        #FFFFFF 100%
+    );
+}
+.gradient-element-3 {
+    background: linear-gradient(
+        180deg,  /* This is equivalent to 'to bottom' */
+        #EEE1FF 0%,
+        #FFFFFF 40%,
+        #FFFFFF 100%
+    );
+}
+
+
+/* gradient color stops */
+.curriculums-container {
+    display: flex;
+    gap: 28px;
+
+}
+
+.curriculums-container>div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 40px 50px;
+
+
+}
+
+.curriculums-container>div>img {
+    width: 50%;
+}
