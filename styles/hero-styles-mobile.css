@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+
+
+    /* hero img and texts section starts */
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 50px;
+    }
+    .hero> *{
+        width: 100%;
+    }
+
+    .hero-message-title {
+        font-size: 2rem;
+        font-weight: var(--bold);
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-first-div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .enroll-now-btn{
+        align-self: center;
+    }
+
+
+}

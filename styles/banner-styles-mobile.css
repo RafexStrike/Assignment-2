@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .nav-links-container {
+        display: none;
+    }
+
+    .contact-btn-container {
+        display: none;
+    }
+
+    .brand-name {
+        display: none;
+    }
+
+    .divider-for-mobile {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        /* font-weight: bold; */
+        font-size: 2rem;
+    }
+
+
+}

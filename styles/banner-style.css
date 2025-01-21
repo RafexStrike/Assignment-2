@@ -9,6 +9,7 @@ bold  --> 700
 extra-bold  --> 800
  */
 
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -72,67 +73,7 @@ extra-bold  --> 800
     display: none;
 }
 
-/* hero section for dektop starts */
-.hero-message-title{
-    font-size:  2.45rem;
-    font-weight: var(--bold);
-}
-.line-1{
-    color: var(--orange);
-}
-.line-3-span-2{
-    color: var(--sky-blue);
-
-}
-
-.hero-message-description{
-    font-weight: var(--regular);
-    color: rgba(17, 17, 17, 1);
-}
-
-.enroll-now-btn{
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 12px;
-    padding: 10px 40px;
-    font-weight: var(--bold);
-}
-.hero{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-.hero-img{
-    width: 100%;
-}
-@media screen and (max-width: 576px) {
-    body {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .nav-links-container {
-        display: none;
-    }
-
-    .contact-btn-container {
-        display: none;
-    }
-
-    .brand-name {
-        display: none;
-    }
-
-    .divider-for-mobile {
-        display: block;
-    }
-
-    .menu-icon {
-        display: block;
-        /* font-weight: bold; */
-        font-size: 2rem;
-    }
 
 
-}
+
+

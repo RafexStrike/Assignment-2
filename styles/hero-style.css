@@ -1,0 +1,41 @@
+/* hero section for dektop starts */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-img {
+    width: auto;
+}
+.hero> *{
+    width: 50%;
+}
+.hero-message-title {
+    font-size: 2.45rem;
+    font-weight: var(--bold);
+}
+
+.line-1 {
+    color: var(--orange);
+}
+
+.line-3-span-2 {
+    color: var(--sky-blue);
+
+}
+
+.hero-message-description {
+    font-weight: var(--regular);
+    color: rgba(17, 17, 17, 1);
+}
+
+.enroll-now-btn {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 40px;
+    font-weight: var(--bold);
+}
