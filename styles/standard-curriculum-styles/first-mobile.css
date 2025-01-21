@@ -1,0 +1,34 @@
+@media screen and (max-width: 576px) {
+    .curriculum-section {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        /* margin-top: 60px; */
+        /* padding-top: 60px;  */
+        /*that's a banger!*/
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        gap: 1rem;
+    }
+
+    .curriculums-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .curriculum-button-1,
+    .curriculum-button-2 {
+        display: none;
+    }
+
+
+    .cirriculum-section-parent-div {
+       
+        background-position: top;
+        margin-top: 30px;
+        /* background-attachment: scroll; */
+    }
+}
+
+
