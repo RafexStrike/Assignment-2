@@ -71,11 +71,6 @@
     border-top-right-radius: 16px;
 }
 
-.content-holder {
-    padding-left: 36px;
-    padding-right: 36px;
-    padding-bottom: 36px;
-}
 
 .right-part-of-the-stories {
     display: grid;
@@ -97,11 +92,7 @@
 
 
 
-.content-holder-of-the-right-side {
-    height: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .story-section-view-btn {
     color: white;
@@ -117,7 +108,7 @@
 .date-button-1 {
     position: absolute;
     left: 7.5%;
-    bottom: 31.5%;
+    bottom: 36%;
     background-color: #40DCEF;
     color: white;
     padding: 8px 16px;
@@ -127,13 +118,21 @@
     z-index: 1;
 }
 
+.content-holder {
+    height: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+}
+
+
 .date-button-2 {
     position: absolute;
     /* Takes it out of normal document flow */
     /* left: 24px; */
-    left: 10.5%;
+    left: 8.5%;
     /* Distance from left edge of parent */
-    bottom: 46.5%;
+    bottom: 50%;
     background-color: #95B226;
     color: white;
     padding: 8px 16px;
@@ -141,4 +140,11 @@
     border: none;
     font-size: 14px;
     z-index: 1;
+}
+
+.content-holder-of-the-right-side {
+    height: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
 }

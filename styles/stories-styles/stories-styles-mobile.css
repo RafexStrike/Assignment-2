@@ -21,46 +21,12 @@
     .right-part-of-the-stories {
         width: 100%;
         height: 100%;
-        
+
     }
 
-    .left-part-of-the-stories{display: none;}
-
-    /* .right-part-of-the-stories{
-        display: flex;
-        flex-direction: column;
-   
-    } */
-
-    /* .date-button-2 {
-        position: absolute;
-       
-        left: 12px;
-      
-        bottom: 110px;
-        background-color: #95B226;
-        color: white;
-        padding: 4px 8px;
-        border-radius: 8px;
-        border: none;
-        font-size: 14px;
-        z-index: 1;
-    } */
-
-    /* .story-4 >.date-button-2, .story-5 >.date-button-2 {
-        position: absolute;
-       
-        left: 8px;
-        
-        bottom: 130px;
-        background-color: #95B226;
-        color: white;
-        padding: 4px 8px;
-        border-radius: 8px;
-        border: none;
-        font-size: 14px;
-        z-index: 1;
-    } */
+    .left-part-of-the-stories {
+        display: none;
+    }
 
 
 }
