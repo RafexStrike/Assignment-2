@@ -116,8 +116,8 @@
 /* making the overlapping buttons*/
 .date-button-1 {
     position: absolute;
-    left: 24px;
-    bottom: 145px;
+    left: 7.5%;
+    bottom: 31.5%;
     background-color: #40DCEF;
     color: white;
     padding: 8px 16px;
@@ -130,9 +130,10 @@
 .date-button-2 {
     position: absolute;
     /* Takes it out of normal document flow */
-    left: 24px;
+    /* left: 24px; */
+    left: 10.5%;
     /* Distance from left edge of parent */
-    bottom: 105px;
+    bottom: 46.5%;
     background-color: #95B226;
     color: white;
     padding: 8px 16px;
