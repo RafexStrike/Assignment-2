@@ -1,7 +1,5 @@
 .footer-container {
     display: flex;
-
-    /* gap: 1rem; */
     padding-left: 8.75rem;
     padding-right: 8.75rem;
     padding-top: 5%;
@@ -10,13 +8,6 @@
 
 }
 
-/* .footer-section-1-container,
-.footer-section-2-container,
-.footer-section-3-container {
-    height: calc(100% /3);
-    width: calc(100% / 3);
-
-} */
 
 footer {
     background-color: #01ACFD;
