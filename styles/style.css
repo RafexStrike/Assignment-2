@@ -1,13 +1,3 @@
-/* 
-thin --> 100
-extra light --> 200
-light  --> 300
-regular -->  400
-medium  --> 500
-semi-bold  --> 600
-bold  --> 700
-extra-bold  --> 800
- */
 
  /*কোন ফন্টের জন্য কোন ট্যাগ ইউজ করব:
    56px --> <h1>
@@ -28,8 +18,6 @@ Tag	Description	Size
 <h5>		0.83em (13.28px)
 <h6>		0.67em (10.72px) 
  */
-
-
  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
  
 
@@ -50,17 +38,6 @@ header{
   margin-right: 8.75rem;
 }
 
-/* 
-thin --> 100
-extra light --> 200
-light  --> 300
-regular -->  400
-medium  --> 500
-semi-bold  --> 600
-bold  --> 700
-extra-bold  --> 800
- */
-
 /* global colors */
  :root{
     --orange: #FEA301;
@@ -73,4 +50,9 @@ extra-bold  --> 800
     --semi-bold: 600;
     --bold: 700;
     --extra-bold: 800;
+}
+
+.marquee-discount{
+  color: #FEA301;
+  font-weight: var(--bold);
 }
