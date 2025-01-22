@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
-    padding: 0;
+    padding-bottom: 60px;
 
 
     /* position: relative; */
@@ -25,6 +25,7 @@
     flex-direction: column;
     align-items: center;
     gap: 3.335rem;
+    /* margin-bottom: 60px; */
 
 
 }
